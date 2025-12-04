@@ -96,11 +96,12 @@ const CoChecklistPage = ({ userId }) => {
       ),
     },
     {
-      title: "Title",
-      dataIndex: "title",
+      title: "Customer Number",
+      dataIndex: "custNo",
       width: 180,
       render: (text) => <span style={{ color: SECONDARY_PURPLE }}>{text}</span>,
     },
+    // { title: "Customer Name", dataIndex: "Customer Name", width: 140 },
     { title: "Loan Type", dataIndex: "loanType", width: 140 },
     {
       title: "Assigned RM",
@@ -113,7 +114,7 @@ const CoChecklistPage = ({ userId }) => {
       ), // Use primary blue for RM name
     },
     {
-      title: "# Docs",
+      title: "Docs",
       dataIndex: "documents",
       width: 80,
       align: "center", // Center align number of documents
