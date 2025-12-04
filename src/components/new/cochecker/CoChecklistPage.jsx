@@ -218,7 +218,7 @@ const CoChecklistPage = ({ userId }) => {
         />
       )}
 
-      <Divider style={{ margin: "12px 0" }}>Assigned Checklists</Divider>
+      <Divider style={{ margin: "12px 0" }}></Divider>
 
       {/* Inject custom styles */}
       <style>{customTableStyles}</style>
